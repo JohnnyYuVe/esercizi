@@ -10,10 +10,10 @@ Progetto realizzato individualmente dal sottoscritto (Yu John Veneth)
 
 Comandi per git 
 
-"git status" (mi elenca i nomi dei file presenti nella cartella e mi indica quali file sono stati modificati e quali no, in modo tale da capire quali file caricare )
-
-
--"git init" -> (ho reso una cartella presente sul mio desktop un repostery [la cartella è nascosta])
--"git add." ->  (mi aggiunge tutti i file nella staging area pronti per essere caricati sul respory remoto)
--(git commit -m "first commit") ->(i file selezionati vengono aggiunti dentro il repostery locale che abbiamo creato precedentemente)
-- (git clone https://github.com/JohnnyYuVe/esercizi) per copiare la mia repostery
+-git status"	-> (mi elenca i nomi dei file presenti nella cartella e mi indica quali file sono stati modificati e quali no, in modo tale da capire quali file caricare )
+-git init 	-> (ho reso una cartella presente sul mio desktop un repostery [la cartella è nascosta])
+-git add. 	-> (mi aggiunge tutti i file nella staging area pronti per essere caricati sul repostery remoto)
+-git commit -m "first commit"   -> (i file selezionati vengono aggiunti dentro il repostery locale che abbiamo creato precedentemente)
+-git remote add origin "url"    ->
+-git push -u origin master.     ->
+- (git clone https://github.com/JohnnyYuVe/esercizi) (per copiare la mia repostery)
