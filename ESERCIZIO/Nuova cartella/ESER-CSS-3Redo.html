@@ -5,14 +5,19 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+<head>
 
-	<head>
-			<title>	campo fiori</title>
+		<title>	campo fiori</title>
 
 			<style>
-
+					body{
+						margin: 0;
+						padding: none;
+						
+					}
 
 						
 
@@ -21,10 +26,10 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 										  list-style-type: none;
 										  margin: 0;
 										  padding: 0;
+										   top: 0%;
 									      width: 100%;
-									      overflow: hidden;
 										  position: fixed;
-										  top: 0%;
+										 
 										  background-color: #000;			
 					}
 
@@ -44,171 +49,254 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 										  background-color: #666;
 										 
 										  overflow: hidden;
-										  height: 80px;
-										  width: 100%;
-										  padding: 30px;
-										  
+										  height: 90px;
+										  width: ;
+										  padding: 30px;								  
 					}
 
 
 					.Intestazione-Pagina header{
 												text-align: center;
-												font-size: 30px;
+												font-size: 35px;
 												color: white;
-
-
 					}
 
-
-					.Contenuti-Pagina{								
-									height: auto;
+/*--------------------------------------------------------------------*/
+					.Contenuti-Pagina{
 									width: 100%;
-									padding: 30px;
+									margin: 0;								
+									height: auto;
+									background-color: #670;
+									overflow: hidden;								
+					}
 
-									background-color: #668;
-									overflow: hidden;
+
+					.block-row { 
+							font-size: 20px;
+							margin: 40px;
+							width: 100%;
+							
+							
+							
+
 
 					}
 
 
-					.block { 
-							height: 400px;
-							padding: 40px 40px;
-							color: white;
-							font-size: 20px;
-							display: inline;
+					.block-column{
 
+								float: left;
+								width: 30%;
+								padding: 30px 15px;								
+								background-color: #668;
+								color: white;
+								padding-bottom: 100%;
+  							 	margin-bottom: -100%;
+
+
+					}
+
+					.block-column h3{
+									font-size: 35px;
+									font-family: calibri;
 					}
 
 
 					.immagine{								
-							  height: 400px;
-							  width: 600px;
-							  padding: 1px 30px;
-
+							  height: 350px;
+							  width: 100%;						
+							  margin: 0px;
 							  background-color: #000;
 					}
 
+				
+/*-----------------------------------------fine stile della barra di navigazione---------------------------*/
 
 					.Footer-Pagina{
-									background-color: #000;
-									width: 100%;
-									height: 120px;
+									background-color: #990;
+									margin-top: 10px;
+									width: ;
+									height: 160px;
 									font-size: 20px;
 									padding: 20px;
 									color: white;
+									text-align: center;
 					}
-
-
-
 
 			</style>
 
+</head>	
 
 
-
-
-
-
-	</head>	
-
-	
-	<body>
+<body>
 
 		<div class="Conteiner-Principale">
 
-									
-
-<!-- ------------------------------------------barra di navigazione verticale--------------------------------->
-			<div class="Barra-DI-Navigazione">
-											
-												<a class="Bottone" href="#home">home</a> 
-												<a class="Bottone" href="#news">news</a> 
-												<a class="Bottone" href="#contact">contact</a> 
-												<a class="Bottone" href="#info">info</a>
-												<a class="Bottone" href="#Extra" style="float:right">Extra</a>
+									<div class="Barra-DI-Navigazione">
+																	
+																		<a class="Bottone" href="ESER-CSS-3Redo.html">home</a> 
+																		
+																		<a class="Bottone" href="#footer-PaginaID"style="float:right">info</a>
+																		
 
 
-			</div>
-<!-- ---------------------------------------Fine barra di navigazione verticale------------------------------->
-
-
-
-
-
-<!-- 	--------------------------------INIZIO DICHIARAZIONE HEADERS PAGINA--------------------------		-->
-			<div class="Intestazione-Pagina">
-						
-						<header>	<h2>Citta turistiche da visitare</h2>		</header>			
-			</div>	
-<!--	---------------------------------FINE DICHIARAZIONE HEADERS PAGINA----------------------			-->
-			
-
-
-
-
-<!--	-----------------------------------INIZIO ZONA CONTENUTI PAGINA-----------------------------		-->
-			<div class="Contenuti-Pagina">
-
-								<div class="block">
-									
-															
-									<p>
-										
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </br>
-										bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
-
-									</p>
-									
-
-									
-									<a href=""><img class="immagine"src="torino.jpg" alt="torino" ></a>
-								
-								</div>
-
-
-			
-
-			</div>
-
-<!--	-----------------------------------FINE ZONA CONTENUTI PAGINA----------------------------------		-->
-			
-
-
-
-
-<!--	-------------------------------INIZIO PARTE INFERIORE DELLA PAGINA---------------------------		-->
-			<div class="Footer-Pagina">
-						
-						<footer>	<h2>hehehe</h2>		</footer>			
-			</div>	
-<!--	------------------------------INIZIO PARTE INFERIORE DELLA PAGINA---------------------------		-->
+									</div>
 		
+									<div class="Intestazione-Pagina">											
+																<header>	
+																		<h2>Citta turistiche da visitare</h2>		
+																</header>			
+									</div>	
+	
+	
+									<div class="Contenuti-Pagina">
+													
+																<div class="block-row">
 
-</div>	
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->																																									<div class="block-column">	
+																											<p>
+																												<h3>Torino </h3>																												Elegante e austera, Torino vanta un patrimonio artistico e culturale unico nel suo genere: le eleganti residenze nobiliari del passato, i palazzi barocchi mozzafiato, i ricchi musei e i monumenti dal valore inestimabile la caratterizzano ancora oggi rendendola un mix irripetibile di antico e moderno.</br>
+																											</p>
+																					</div>
+																						
+																					<div class="block-column" >	
+
+																											<a href="Eser3RedoTorino.html"><img class="immagine"src="torino.jpg" alt="torino" ></a>			
+																					</div>
+
+
+																					<div class="block-column">	
+																											<h3>Mete turistiche</h3>
+																											La Mole Antonelliana e il Museo del Cinema</br>
+																											La Chiesa della Consolata</br>
+																											La Cappella della Sindone</br>
+
+																											<h3 >Ristoranti popolari da provare</h3>
+																											Scatto</br>
+																											Locanda San Giors</br>
+																											Ristorante Carignano</br>
+																																															
+																					</div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->																																									<div class="block-column">	
+																											<p>
+																												<h3>Roma </h3>
+																												i simboli di questa magnifica città, oltre allo stemma comunale, sono la lupa capitolina, statua bronzea raffigurante la leggendaria lupa che allattò i due gemelli Romolo e Remo; il Colosseo, il più grande anfiteatro del mondo romano, riconosciuto, nel 2007, come una delle sette meraviglie del mondo moderno (unica in Europa); </br>
+																												il Cupolone, la cupola della Basilica di San Pietro in Vaticano, che domina tutta la città e simboleggia il mondo cristiano.</br>
+																											</p>
+																					</div>
+
+																						
+																					<div class="block-column" >	
+
+																											<a href="Eser3RedoRoma.html"><img class="immagine"src="Colosseo_0_0.jpg" alt="roma" ></a>			
+																					</div>
+
+
+																					<div class="block-column">	
+																											<h3>Mete turistiche</h3>
+																											Colosseo</br>
+																											Fontana di Trevi</br>
+																											Pantheon di Agrippa</br>
+
+																											<h3>Ristoranti popolari da provare</h3>
+																											Trattoria Da Teo</br>
+																											Trattoria Lilli</br>
+																											Da Enzo al 29</br>
+																																															
+																					</div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->	
+																					<div class="block-column">	
+																											<p>
+																												<h3>Napoli </h3>
+																												Napoli è affascinante a tratti irresistibile,è una città a cui gli estremi sembrano piacere molto: vicoli stretti e bui incrociano viali ombreggiati da palme, facciate lasciate al tempo nascondono saloni barocchi e santuari , cappelle affiancano locali alla moda.</br>
+																											</p>
+																					</div>
+
+																						
+																					<div class="block-column" >	
+
+																											<a href="Eser3RedoNapoli.html"><img class="immagine"src="napoli.jpg" alt="napoli" ></a>			
+																					</div>
+
+
+																					<div class="block-column">	
+																											<h3>Mete turistiche</h3>
+																											Monastero di Santa Chiara</br>
+																											Duomo di Napoli</br>
+																											Piazza Plebiscito</br>
+
+																											<h3>Ristoranti popolari da provare</h3>
+																											Palazzo Petrucci</br>
+																											Il Comandante</br>
+																											Pizzeria Salvo</br>
+																																															
+																					</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->	
+																					<div class="block-column">	
+																											<p>
+																												<h3>Sardegna </h3>
+																												Elegante e austera, Torino vanta un patrimonio artistico e culturale unico nel suo genere: le eleganti residenze nobiliari del passato, i palazzi barocchi mozzafiato, i ricchi musei e i monumenti dal valore inestimabile la caratterizzano ancora oggi rendendola un mix irripetibile di antico e moderno.</br>
+																											</p>
+																					</div>
+
+																						
+																					<div class="block-column" >	
+
+																											<a href="Eser3RedoSardegna.html"><img class="immagine"src="sardegna.jpg" alt="Sardegna" ></a>			
+																					</div>
+
+
+																					<div class="block-column">	
+																											<h3>Mete turistiche</h3>
+																											Costa Smeralda</br>
+																											L’arcipelago della Maddalena</br>
+																											Cala Grande</br>
+
+																											<h3>Ristoranti popolari da provare</h3>
+																											S’Apposentu di Casa Puddu</br>
+																											Dal Corsaro</br>
+																											Su Gologone</br>
+																																															
+																					</div>
+
+																					
+
+
+																				
+																</div>
+
+									</div>
+
+		
+									<div class="Footer-Pagina" id="footer-PaginaID">											
+															<footer>
+																
+																  <div>	
+																	<i class="fa fa-map-marker" style="width:30px"></i> ITALY, IT<br>
+															        <i class="fa fa-phone" style="width:30px"></i> Phone: +39 312312313123<br>
+															        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+															      </div>
+																
+
+																<h2>Created by: Yu John Veneth</h2>		
+															</footer>			
+									</div>	
+	
+				
+
+		</div>	
 
 
 
 
 
 	
-	</body>
+</body>
 
 
 </html>
