@@ -12,6 +12,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 		<title>	campo fiori</title>
 
 					<style>
+				
+
 					body{
 						margin: 0;
 						padding: none;
@@ -59,7 +61,56 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 												font-size: 35px;
 												color: white;
 					}
+					
 
+/*--------------------------------------------------------------------*/
+
+					.Intestazione-Box-link{
+											width: auto;
+										
+											height: auto;								
+											background-color: #666;
+
+											display: flex;
+											flex-direction: row;		/* è assegnato per default */
+											flex-wrap: wrap;
+											justify-content: center;
+											align-items: stretch;		/* prinicipalmente utilizzato per una singola riga di elementi e specifico lo spazio tra i vari elementi */
+															/* specifico come devono essere allineati i vari elementi dentro il box(se è solo una linea questo comando è inutile)*/
+
+										
+											
+					}
+
+					@media (max-width: 800px) {
+						  
+											  .img_link {
+													    flex: 50%;
+													    max-width: 50%;
+										 	  }
+					}
+
+					@media (max-width: 600px) {
+											  .img_link {
+											    flex: 100%;
+											    max-width: 100%;
+											  }
+					}
+
+					.img_link  {
+
+
+								height: 300px;
+								width: 300px;								 
+								margin: 20px;
+								vertical-align: middle;
+								background-color: blue;
+					}
+
+					.img_link img{
+									width: 100%;
+									height: 300px;					
+					}
 /*--------------------------------------------------------------------*/
 					.Contenuti-Pagina{
 									width: 100%;
@@ -84,17 +135,11 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 					}
 					.text-style{
-								margin-left: auto;
-								margin-right: auto;
-								height:auto;
-								width: 50%;
 								color: white;
 								font-size:20px;
-							list-style-type: circle;
-							list-style-position: outside;
+							text-align: center;
 					}
 
-					
 
 					.block-column{
 
@@ -126,6 +171,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 									height: 800px;
 									width:100%;
 					}
+
 					.img_intr{
 								  display: block;
 								  margin-left: auto;
@@ -181,10 +227,24 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																	<p style="text-align: center; font-size:40px">Volete visitare Sardegna ma non sapete da dove partire?</br>
 																	Bhe ecco a voi una mini guida su cosa fare e dove andare </br>
 																	</p>
+																</div>
+
+																<div class="Intestazione-Box-link">
+											
+																<div class="img_link">	<a href=#8 > <img src="Isola di SantAntioco.jpg" > 											</a> </div>		
+																<div class="img_link">	<a href=#2 > <img src="Isola di San Pietro.jpg" >			 						</a> </div>		
+																<div class="img_link">	<a href=#3 > <img src="I nuraghi.jpg" >			 								</a> </div>		
+																<div class="img_link">	<a href=#4 > <img src="Tharros e la penisola del Sinis.jpg" >											</a> </div>		
+																<div class="img_link">	<a href=#5 > <img src="Oristano.jpg" >	 								</a> </div>
+																<div class="img_link">	<a href=#6 > <img src="Bosa.jpg" >			 					</a> </div>		
+																<div class="img_link">	<a href=#1 > <img src="Palatino.jpg" >	</a> </div>			
+																<div class="img_link">	<a href=#7 > <img src="Isola Asinara.jpg" >	</a> </div>				
+											
+
 																</div>	
 
 																<div>
-																	<img src="Isola di SantAntioco.jpg" class="img_intr">
+																	<img src="Isola di SantAntioco.jpg" class="img_intr" id="1">
 																	<h1 class="title-style">Visitare l&apos;Isola di Sant’Antioco</h1>
 																	<p class="text-style">
 																		Se state cercando i migliori luoghi da visitare nel Sud della Sardegna, allora dovreste fermarvi sull’isola di Sant’Antioco. &egrave; la quarta isola più grande d’Italia dopo la Sicilia, la Sardegna, e l’Isola di Elba.</br>
@@ -205,7 +265,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Isola di San Pietro.jpg" class="img_intr">
+																	<img src="Isola di San Pietro.jpg" class="img_intr" id="2">
 																	<h1 class="title-style">Visitare l&apos;Isola di San Pietro</h1>
 																	<p class="text-style">	
 																		Proprio accanto a Sant’Antioco, San Pietro &egrave; un altro posto che vale la pena visitare durante le vostre vacanze in Sardegna.</br>
@@ -228,7 +288,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="I nuraghi.jpg" class="img_intr">
+																	<img src="I nuraghi.jpg" class="img_intr" id="3">
 																	 <h1 class="title-style">Visitare I nuraghi</h1>
 																	 <p class="text-style">
 																	 	Durante il vostro viaggio in Sardegna, dovete andare a vedere almeno un nuraghe, sono ovunque sull’isola!</br></br>
@@ -255,7 +315,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Tharros e la penisola del Sinis.jpg" class="img_intr">	
+																	<img src="Tharros e la penisola del Sinis.jpg" class="img_intr" id="4">	
 																	<h1 class="title-style">Tharros e la penisola del Sinis</h1>
 																	<p class="text-style">
 																	 	Continuiamo il nostro viaggio in Sardegna recandoci nella penisola del Sinis.</br></br>
@@ -270,7 +330,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 																	
 																<div>			
-																	<img src="Oristano.jpg" class="img_intr">
+																	<img src="Oristano.jpg" class="img_intr" id="5">
 																	<h1 class="title-style">Visitare Oristano</h1>
 																	<p class="text-style">
 																		Un altro splendido posto da visitare durante il vostro viaggio in Sardegna &egrave; sicuramente la città di Oristano, nella parte occidentale dell’isola.</br>
@@ -291,7 +351,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 
 																<div>
-																	<img src="Bosa.jpg" class="img_intr">
+																	<img src="Bosa.jpg" class="img_intr" id="6">
 																	<h1 class="title-style">Visitare Bosa</h1>
 																	<p class="text-style">
 																		Se vi state chiedendo cosa fare in Sardegna, allora dovreste visitare Bosa, un’incantevole cittadina Sarda.</br></br>
@@ -318,7 +378,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Isola Asinara.jpg" class="img_intr">
+																	<img src="Isola Asinara.jpg" class="img_intr" id="7">
 																	<h1 class="title-style">Raggiungere l&apos;Isola dell’Asinara</h1>
 																	<p class="text-style">
 																		Durante il vostro viaggio in Sardegna, che ne direste di visitare l’isola dell’Asinara?</br></br>

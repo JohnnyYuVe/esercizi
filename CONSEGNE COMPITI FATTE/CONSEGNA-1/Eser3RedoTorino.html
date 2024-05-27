@@ -13,6 +13,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 		<title>	campo fiori</title>
 
 					<style>
+				
+
 					body{
 						margin: 0;
 						padding: none;
@@ -60,7 +62,56 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 												font-size: 35px;
 												color: white;
 					}
+					
 
+/*--------------------------------------------------------------------*/
+
+					.Intestazione-Box-link{
+											width: auto;
+										
+											height: auto;								
+											background-color: #666;
+
+											display: flex;
+											flex-direction: row;		/* è assegnato per default */
+											flex-wrap: wrap;
+											justify-content: center;
+											align-items: stretch;		/* prinicipalmente utilizzato per una singola riga di elementi e specifico lo spazio tra i vari elementi */
+															/* specifico come devono essere allineati i vari elementi dentro il box(se è solo una linea questo comando è inutile)*/
+
+										
+											
+					}
+
+					@media (max-width: 800px) {
+						  
+											  .img_link {
+													    flex: 50%;
+													    max-width: 50%;
+										 	  }
+					}
+
+					@media (max-width: 600px) {
+											  .img_link {
+											    flex: 100%;
+											    max-width: 100%;
+											  }
+					}
+
+					.img_link  {
+
+
+								height: 300px;
+								width: 300px;								 
+								margin: 20px;
+								vertical-align: middle;
+								background-color: blue;
+					}
+
+					.img_link img{
+									width: 100%;
+									height: 300px;					
+					}
 /*--------------------------------------------------------------------*/
 					.Contenuti-Pagina{
 									width: 100%;
@@ -121,6 +172,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 									height: 800px;
 									width:100%;
 					}
+
 					.img_intr{
 								  display: block;
 								  margin-left: auto;
@@ -176,10 +228,23 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																	<p style="text-align: center; font-size:40px">Volete visitare torino ma non sapete da dove partire?</br>
 																	Bhe ecco a voi una mini guida su cosa fare e dove andare </br>
 																	</p>
+																</div>
+
+																<div class="Intestazione-Box-link">
+											
+																<div class="img_link">	<a href=#1 > <img src="La Cappella della Sindone.jpg" > </a> </div>		
+																<div class="img_link">	<a href=#2 > <img src="La Chiesa della Consolata.jpg" >			 </a> </div>		
+																<div class="img_link">	<a href=#3 > <img src="La Basilica di Superga.jpg" >			 </a> </div>		
+																<div class="img_link">	<a href=#4 > <img src="Piazza Castello.jpg" >			 </a> </div>		
+																<div class="img_link">	<a href=#5 > <img src="Il Duomo di Torino.jpg" >					 </a> </div>
+																<div class="img_link">	<a href=#6 > <img src="Villa della Regina.jpg" >					 </a> </div>
+																<div class="img_link">	<a href=#7 > <img src="Museo delle Antichita Egizie.jpg" >					 </a> </div>			
+														
+
 																</div>	
 
 																<div>
-																	<img src="La Cappella della Sindone.jpg" class="img_intr">
+																	<img src="La Cappella della Sindone.jpg" class="img_intr" id="1">
 																	<h1 class="title-style">Visitare La Cappella della Sindone</h1>
 																	<p class="text-style">
 																		Riaperte nel settembre 2018 dopo il lungo restauro, la Cappella della Sindone di Torino &egrave; sicuramente una delle cose da vedere assolutamente nel capoluogo piemontese. Il capolavoro barocco di Guarino Guarini, dichiarato patrimonio mondiale UNESCO dal 1997, &egrave; un gioiello tutto da ammirare con il suo prezioso marmo nero venato di grigio, gli stupendi archi e pilastri, i giochi di luce, le statue, la fitta trama di segni allusi, i capitelli bronzei con i simboli della Passione…</br>
@@ -187,7 +252,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="La Chiesa della Consolata.jpg" class="img_intr">
+																	<img src="La Chiesa della Consolata.jpg" class="img_intr"  id="2">
 																	<h1 class="title-style">Visitare La Chiesa della Consolata</h1>
 																	<p class="text-style">	
 																		l Santuario della Consolata, anche conosciuto con il nome di Chiesa di Santa Maria della Consolazione, &egrave; sicuramente uno degli edifici religiosi da vedere nel capoluogo piemontese. </br>
@@ -196,7 +261,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="La Basilica di Superga.jpg" class="img_intr">
+																	<img src="La Basilica di Superga.jpg" class="img_intr" id="3">
 																	 <h1 class="title-style">Visitare La Basilica di Superga</h1>
 																	 <p class="text-style">
 																	 	La maestosa basilica, opera del famoso architetto barocco Filippo Juvarra, si erge sulla cima di un colle, da cui prende il proprio nome, e la sua particolare bellezza cattura l’attenzione di chiunque ne incroci lo sguardo. </br>
@@ -205,7 +270,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Piazza Castello.jpg" class="img_intr">	
+																	<img src="Piazza Castello.jpg" class="img_intr" id="4">	
 																	<h1 class="title-style">Visitare La Piazza Castello</h1>
 																	<p class="text-style">
 																	 	Cuore della città in passato come oggi, Piazza Castello &egrave; la seconda piazza più grande di Torino. </br>
@@ -215,7 +280,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 																	
 																<div>			
-																	<img src="Il Duomo di Torino.jpg" class="img_intr">
+																	<img src="Il Duomo di Torino.jpg" class="img_intr" id="5">
 																	<h1 class="title-style">vistare Il Duomo di Torino</h1>
 																	<p class="text-style">
 																		Tra i vari edifici religiosi della città sabauda, il Duomo &egrave; uno di quelli da visitare assolutamente.</br>
@@ -226,7 +291,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 
 																<div>
-																	<img src="Villa della Regina.jpg" class="img_intr">
+																	<img src="Villa della Regina.jpg" class="img_intr" id="6">
 																	<h1 class="title-style">Visitare Villa della Regina</h1>
 																	<p class="text-style">
 																		Sulla collina di Torino si trova questa magnifica villa seicentesca che &egrave; stata per secoli la residenza di molte sovrane sabaude (da qui il nome Villa della Regina). Oggi visitabile, la residenza ospita al suo interno numerose tele di artisti come Daniel Seiter e Giovanni Battista Crostato d gli splendidi gabinetti cinesi in legno laccato e dorato.</br>
@@ -236,7 +301,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 															
 																<div>
-																	<img src="Museo delle Antichita Egizie.jpg" class="img_intr">
+																	<img src="Museo delle Antichita Egizie.jpg" class="img_intr" id="7">
 																	<h1 class="title-style">Museo delle Antichità Egizie</h1></h1>
 																	<p class="text-style">
 																	Luogo imperdibile e tappa obbligata per chi &egrave; appassionato di arte ma non solo, il Museo dedicato all&apos;arte e alla cultura dell&apos;antico Egitto di Torino, merita una visita anche per chi di arte non s&apos;intende troppo.</br>

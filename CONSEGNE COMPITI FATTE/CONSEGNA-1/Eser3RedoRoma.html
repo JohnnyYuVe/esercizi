@@ -13,6 +13,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 		<title>	campo fiori</title>
 
 					<style>
+				
+
 					body{
 						margin: 0;
 						padding: none;
@@ -60,7 +62,56 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 												font-size: 35px;
 												color: white;
 					}
+					
 
+/*--------------------------------------------------------------------*/
+
+					.Intestazione-Box-link{
+											width: auto;
+										
+											height: auto;								
+											background-color: #666;
+
+											display: flex;
+											flex-direction: row;		/* è assegnato per default */
+											flex-wrap: wrap;
+											justify-content: center;
+											align-items: stretch;		/* prinicipalmente utilizzato per una singola riga di elementi e specifico lo spazio tra i vari elementi */
+															/* specifico come devono essere allineati i vari elementi dentro il box(se è solo una linea questo comando è inutile)*/
+
+										
+											
+					}
+
+					@media (max-width: 800px) {
+						  
+											  .img_link {
+													    flex: 50%;
+													    max-width: 50%;
+										 	  }
+					}
+
+					@media (max-width: 600px) {
+											  .img_link {
+											    flex: 100%;
+											    max-width: 100%;
+											  }
+					}
+
+					.img_link  {
+
+
+								height: 300px;
+								width: 300px;								 
+								margin: 20px;
+								vertical-align: middle;
+								background-color: blue;
+					}
+
+					.img_link img{
+									width: 100%;
+									height: 300px;					
+					}
 /*--------------------------------------------------------------------*/
 					.Contenuti-Pagina{
 									width: 100%;
@@ -121,6 +172,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 									height: 800px;
 									width:100%;
 					}
+
 					.img_intr{
 								  display: block;
 								  margin-left: auto;
@@ -173,15 +225,28 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																	<img class="Img_Principale"src="Roma.jpg">
 																</div>
 
+																<div class="Intestazione-Box-link">
+											
+																<div class="img_link">	<a href=#8 > <img src="colosseo.jpg" > 											</a> </div>		
+																<div class="img_link">	<a href=#2 > <img src="Fontana_di_ Trevi.jpg" >			 						</a> </div>		
+																<div class="img_link">	<a href=#3 > <img src="vaticano.jpg" >			 								</a> </div>		
+																<div class="img_link">	<a href=#4 > <img src="giancolo.jpg" >											</a> </div>		
+																<div class="img_link">	<a href=#5 > <img src="catacombe_roma.jpg" >	 								</a> </div>
+																<div class="img_link">	<a href=#6 > <img src="Bocca_della_Verita.jpg" >			 					</a> </div>		
+																<div class="img_link">	<a href=#1 > <img src="Palatino.jpg" >	</a> </div>			
+																<div class="img_link">	<a href=#7 > <img src="buco della serratura del Giardino degli Aranci.jpg" >	</a> </div>	
+
+																</div>	
+
 																<div>
-																	<h1 style="font-size: 60px; text-align:center">Cose da fare a Roma</h1>
-																	<p style="text-align: center; font-size:40px">Volete visitare roma ma non sapete da dove partire?</br>
+																	<h1 style="font-size: 60px; text-align:center;  color:white;" >Cose da fare a Roma</h1>
+																	<p style="text-align: center; font-size:40px;  color:white;">Volete visitare roma ma non sapete da dove partire?</br>
 																	Bhe ecco a voi una mini guida su cosa fare e dove andare </br>
 																	</p>
 																</div>	
 
 																<div>
-																	<img src="colosseo.jpg" class="img_intr">
+																	<img src="colosseo.jpg" class="img_intr" id="8">
 																	<h1 class="title-style">Visitare il Colosseo</h1>
 																	<p class="text-style">
 																		Questo anfiteatro &egrave; probabilmente il custode di Roma.</br>
@@ -196,8 +261,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="colosseo.jpg" class="img_intr">
-																	<h1 class="title-style">Visitare il Foro romano e il Platino</h1>
+																	<img src="Palatino.jpg" class="img_intr" id="1">
+																	<h1 class="title-style">Visitare il Foro romano e il Palatino</h1>
 																	<p class="text-style">	
 																		Il Foro era il luogo in cui si concentrava tutta la vita giudiziaria, politica e commerciale dell&apos;antica Roma e oggi &egrave; un&apos;impressionante esposizione di resti archeologici attraverso i quali si può intravedere l&apos;essenza di quell&apos;epoca d&apos;oro della città.</br>
 
@@ -209,7 +274,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Fontana_di_ Trevi.jpg" class="img_intr">
+																	<img src="Fontana_di_ Trevi.jpg" class="img_intr" id="2">
 																	 <h1 class="title-style">Visitare la Fontana di Trevi</h1>
 																	 <p class="text-style">
 																	 	Roma &egrave; nota per le sue fontane e questa &egrave; senza dubbio la più emblematica di tutte. Apparirà a sorpresa quando girerete l&apos;angolo passeggiando per il centro storico della città e la prima cosa che vi sorprenderà saranno le sue dimensioni. </br>
@@ -222,7 +287,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="vaticano.jpg" class="img_intr">	
+																	<img src="vaticano.jpg" class="img_intr" id="3">	
 																	<h1 class="title-style">Cappella Sistina ai Musei Vaticani</h1>
 																	<p class="text-style">
 																	 	 Il fiore all&apos;occhiello per gli amanti dell&apos;arte &egrave; rappresentato dai Musei Vaticani. Opere di Da Vinci, Tiziano, Caravaggio e Raffaello sono solo un piccolo assaggio di ciò che si può trovare nella più grande collezione d&apos;arte d&apos;Europa, presieduta, ovviamente, dalla famosa Cappella Sistina.</br>
@@ -240,7 +305,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 																	
 																<div>			
-																	<img src="giancolo.jpg" class="img_intr">
+																	<img src="giancolo.jpg" class="img_intr" id="4">
 																	<h1 class="title-style">vista dal Gianicolò</h1>
 																	<p class="text-style">
 																		Personalmente adoro vedere le città "dall&apos;alto"; una panoramica dei loro tetti e giardini &egrave; per me un momento per respirare aria fresca e pensare a quanto si &egrave; fortunati ad essere lì in quel momento a godersi il viaggio.</br>
@@ -252,7 +317,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 
 																<div>
-																	<img src="catacombe_roma.jpg" class="img_intr">
+																	<img src="catacombe_roma.jpg" class="img_intr" id="5">
 																	<h1 class="title-style">Visitare le catacombe</h1>
 																	<p class="text-style">
 																		Parlando di una Roma diversa, esiste anche una Roma sotterranea, lontana dai turisti e dai monumenti. </br>
@@ -264,7 +329,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 																</div>
 
 																<div>
-																	<img src="Bocca_della_Verita.jpg" class="img_intr">
+																	<img src="Bocca_della_Verita.jpg" class="img_intr"id="6">
 																	<h1 class="title-style">Raggiungere la Bocca della Verità</h1>
 																	<p class="text-style">
 																		Per chi non ha visto "Vacanze Romane": la Bocca della Verità &egrave; una maschera di marmo situata nella chiesa di Santa Maria in Cosmedin (vicino al Circo Massimo) la cui leggenda narra che morda la mano di chi ha mentito. </br>
@@ -274,7 +339,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 
 																<div>
-																	<img src="buco della serratura del Giardino degli Aranci.jpg" class="img_intr">
+																	<img src="buco della serratura del Giardino degli Aranci.jpg" class="img_intr" id="7">
 																	<h1 class="title-style">Sbirciare dal buco della serratura del Giardino degli Aranci</h1></h1>
 																	<p class="text-style">
 																		Guardare dal buco della serratura: &egrave; davvero una cosa da fare a Roma? Quando vedrete la splendida vista della Cupola di San Pietro da lì, sono sicuro che capirete perché. </br>
