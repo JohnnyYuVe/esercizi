@@ -1,0 +1,112 @@
+// se si vuole specificare un file di definizione alternativo al dtd si può usare l'xsd, inoltre il file con tale estensione deve essere specificato nel space name
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Prodotto SYSTEM "PRODOTTO.dtd">
+
+<Prodotto
+			xmlns:xhtml="caccapoppocdfaerafd">
+
+		<articolo>
+				  <ID_Articolo>	1	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z001	</COD_ARTICOLO>
+				  <NOME_BRAND> palm angels		</NOME_BRAND>
+				  <MADE_IN>	china		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> S			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	2	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z002	</COD_ARTICOLO>
+				  <NOME_BRAND> palm angels		</NOME_BRAND>
+				  <MADE_IN> china			</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> M			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	3	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z003	</COD_ARTICOLO>
+				  <NOME_BRAND> palm angels		</NOME_BRAND>
+				  <MADE_IN> china		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> L			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	4	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z004	</COD_ARTICOLO>
+				  <NOME_BRAND> dor bell 	</NOME_BRAND>
+				  <MADE_IN> italy		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> S			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	5	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z005	</COD_ARTICOLO>
+				  <NOME_BRAND> dor bell		</NOME_BRAND>
+				  <MADE_IN>	italy		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> M			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	6	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z006	</COD_ARTICOLO>
+				  <NOME_BRAND> dor bell		</NOME_BRAND>
+				  <MADE_IN>	italy		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> L			</TAGLIA>
+				  <PREZZO> 44.50			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	7	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z007	</COD_ARTICOLO>
+				  <NOME_BRAND> etro		</NOME_BRAND>
+				  <MADE_IN>	filippine		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> 40			</TAGLIA>
+				  <PREZZO> 70.90			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	8	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z008	</COD_ARTICOLO>
+				  <NOME_BRAND> etro		</NOME_BRAND>
+				  <MADE_IN>	filippine		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> 41			</TAGLIA>
+				  <PREZZO> 70.90			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	9	</ID_Articolo>
+				  <COD_ARTICOLO> 20002Z009	</COD_ARTICOLO>
+				  <NOME_BRAND> etro		</NOME_BRAND>
+				  <MADE_IN>	filippine		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> 42			</TAGLIA>
+				  <PREZZO> 70.90			</PREZZO>
+		</articolo>
+
+		<articolo>
+				  <ID_Articolo>	10	</ID_Articolo>
+				  <COD_ARTICOLO>20002Z010	</COD_ARTICOLO>
+				  <NOME_BRAND> etro		</NOME_BRAND>
+				  <MADE_IN>	filippine		</MADE_IN>
+				  <COMPOSIOZIONE> cotone	</COMPOSIOZIONE>
+				  <TAGLIA> 43			</TAGLIA>
+				  <PREZZO> 70.90			</PREZZO>
+		</articolo>
+
+
+
+</Prodotto>
