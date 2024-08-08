@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<xsd:schema xmlns:xsd="https://www.youtube.com/watch?v=s4KEUsnaCoE"
+			xmlns="https://github.com/JohnnyYuVe/php"
+			targetNamespace="https://github.com/JohnnyYuVe/php"
+>
+
+
+<xsd:element name="Prodotto" >
+				<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="articolo" maxoccurs="unbounded" />
+						</xsd:sequence>
+				</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="book">
+			<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element ref="ID_Articolo"/>
+						<xsd:element ref="COD_ARTICOLO"/>
+						<xsd:element ref="NOME_BRAND"/>
+						<xsd:element ref="MADE_IN"/>
+						<xsd:element ref="COMPOSIOZIONE"/>
+						<xsd:element ref="TAGLIA"/>
+						<xsd:element ref="PREZZO"/>
+					</xsd:sequence>
+			</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="COD_ARTICOLO"  type="xsd:integer" />
+<xsd:element name="NOME_BRAND" 	  type="xsd:string"  />
+<xsd:element name="MADE_IN" 	  type="xsd:string"  />
+<xsd:element name="COMPOSIOZIONE" type="xsd:string"  />
+<xsd:element name="TAGLIA" 		  type="xsd:string"  />
+<xsd:element name="PREZZO" 		  type="xsd:string"  />
+ 
+</xsd:schema>
+
+
